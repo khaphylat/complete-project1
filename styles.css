@@ -69,8 +69,14 @@ body{
     background: white;
     margin-left: 20px;
   
-    
 }
+
+.submit_11:hover {
+    background-color: #F2545B;
+    color: white;
+}
+
+
 
 
 .account_2{
@@ -201,8 +207,8 @@ body{
     margin-left: 20px;
 }
 
-
-@media screen and (min-width: 340px){
+    
+@media screen and (min-width: 340px) {
     .a11{
         margin-left: 18em;
     }
@@ -216,9 +222,7 @@ body{
       
         
     }
-    
-    
-} 
+}
 
 @media screen and (min-width: 350px){
     
@@ -252,11 +256,6 @@ body{
         
     }
 
-    .account , .account_2 , .account_3 , .account_4 , .account_51{
-        
-        max-width: 400px;
-    }
-
     .account form > input , .account_3 form > input , .account_4 form > input {
         width: 20em;
         height: 35px;
@@ -288,10 +287,14 @@ body{
         
     }
 
+    .account_5 > a{
+        color: #F2545B;
+    }
+
 @media screen and (min-width: 500px){
 
     .a11{
-        margin-left: 22.5em;
+        margin-left: 21em;
         
     }
     
